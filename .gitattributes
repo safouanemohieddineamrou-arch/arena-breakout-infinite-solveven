@@ -1,0 +1,8 @@
+# See https://github.com/github/linguist
+# Text file normalization
+public/**/*.html linguist-vendored
+
+*.min.css linguist-generated
+yarn.lock linguist-generated
+*.yml linguist-detectable=false
+*.tsx linguist-detectable
